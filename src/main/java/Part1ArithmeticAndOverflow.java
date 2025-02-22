@@ -1,13 +1,13 @@
 public class Part1ArithmeticAndOverflow {
     public static void main(String[] args) {
+
+        //0) применить несколько арифметических операций ( + , -, * , /)
+
+        System.out.println("0) применить несколько арифметических операций ( + , -, * , /)");
+
         int a = 3;
         int b = 5;
 
-
-        //0) применить несколько арифметических операций ( + , -, * , /)
-        // над двумя примитивами типа int
-
-        // Arithmetic operations
         System.out.println("Addition: a + b = " + (a + b));
         System.out.println("Subtraction: a - b = " + (a - b));
         System.out.println("Multiplication: a * b = " + (a * b));
@@ -17,12 +17,11 @@ public class Part1ArithmeticAndOverflow {
 
         System.out.println("1) применить несколько арифметических операций над int и double в одном выражении");
 
-
         int intValue = 10;
         double doubleValue = 5.5;
 
         // Сложение
-//
+
         System.out.println("Sum: " + intValue + " + " + doubleValue + " = " + (intValue + doubleValue));
 
         // Вычитание
